@@ -1,0 +1,51 @@
+localhost:7000/createUser
+
+Req:={
+	        
+	       "first_name":"Knchan",
+            "last_name":"Patil",
+            "email":"kanchani@gmail.com",
+            "phone_no":9921421909,
+            "profile":"home/user/pic"
+}
+
+
+======================
+
+localhost:7000/updateUser
+Req:={
+	        
+	        "userId":"3",
+	       "first_name":"Knchan",
+            "last_name":"Patil",
+            "email":"kanchani@gmail.com",
+            "phone_no":9921421909,
+            "profile":"home/user/pic"
+}
+
+============================
+
+localhost:7000/userList
+Req:-
+{}
+
+=====================
+
+localhost:7000/deleteUser
+
+Req:-
+{
+ "userId":"3"
+}
+
+=========================
+
+localhost:7000/userDetais
+
+Req:-
+
+{
+ "userId":"3"
+}
+
+
